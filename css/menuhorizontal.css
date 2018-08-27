@@ -1,0 +1,70 @@
+ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid #FFF;
+	background-color: #EAEA;
+}
+
+li{
+	/*cada item se debe visualizar en la linea uno al lado del otro 
+	pero debe permitir que puedan ser tratados como un bloque*/
+	display: inline-block;
+}
+a{
+	font-family: 'Jua',
+	cursive;
+	
+    /* quitar el subrayado */
+    text-decoration:none ;
+    font-size: 16px;
+    /* convertir en bloque */
+    display: block;
+    /* relleno */
+    padding: 6px;
+    border: 3px solid red;
+    background-color: gray;
+    color: #000;
+
+}	
+	/* ESTILO PARA EL ENLACE PARA LAPSEUDOC HOVER */
+a:hover{
+	color: red;
+	background-color: black;
+	border-bottom-width: 5px;
+	border-bottom-color: yellow;
+}
+
+
+.casa{
+	font-size: 25px;
+	color: red;
+}
+.noti{
+	font-size: 25px;
+	color: red;	
+}
+.gale{
+	font-size: 25px;
+	color: red;
+}
+.publi{
+	font-size: 25px;
+	color: red;
+}
+.vide{
+	font-size: 25px;
+	color: red;
+}
+.tel{
+	font-size: 25px;
+	color: red;
+}
+
+
+
+
+
+
+
+
